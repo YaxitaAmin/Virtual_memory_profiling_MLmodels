@@ -1,0 +1,39 @@
+2025-05-11 12:46:01,309 - ml_profiler - INFO - Initialized profiler with: frameworks=['pytorch', 'tensorflow'], model_sizes=['small', 'medium', 'large'], batch_sizes=[16, 32, 64], modes=['train', 'inference'], devices=['gpu']
+2025-05-11 12:46:01,309 - ml_profiler - INFO - System information: CPU: x86_64 (128 cores), Memory: 502.83GB, GPU: Not available
+2025-05-11 12:46:01,309 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b16_train_gpu
+2025-05-11 12:46:01,309 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_small_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b16_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_medium_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b16_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: pytorch_large_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b16_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_small_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b16_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_medium_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b16_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b16_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b32_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b32_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b64_train_gpu
+2025-05-11 12:46:01,310 - ml_profiler - WARNING - Skipping GPU experiment as no GPU is available: tensorflow_large_b64_inference_gpu
+2025-05-11 12:46:01,310 - ml_profiler - INFO - Report generation not yet implemented

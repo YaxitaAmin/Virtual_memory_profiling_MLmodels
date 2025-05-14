@@ -1,0 +1,381 @@
+2025-05-11 12:50:07,908 - ml_profiler - INFO - Initialized profiler with: frameworks=['pytorch', 'tensorflow'], model_sizes=['small', 'medium', 'large'], batch_sizes=[16, 32, 64], modes=['train', 'inference'], devices=['gpu']
+2025-05-11 12:50:07,909 - ml_profiler - INFO - System information: CPU: x86_64 (40 cores), Memory: 1510.03GB, GPU: Available - Tesla V100-SXM2-32GB
+2025-05-11 12:50:07,909 - ml_profiler - INFO - [1/36] Running experiment: pytorch_small_b16_train_gpu
+2025-05-11 12:50:07,909 - ml_profiler - INFO - Running experiment: pytorch_small_b16_train_gpu
+2025-05-11 12:50:07,911 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b16_train_gpu/metadata.json
+2025-05-11 12:50:07,918 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:07,918 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=train, device=gpu
+2025-05-11 12:50:11,999 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.2815
+2025-05-11 12:50:12,033 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 1.27 seconds
+2025-05-11 12:50:12,033 - ml_profiler - INFO - Experiment completed in 4.12 seconds
+2025-05-11 12:50:12,113 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:12,137 - ml_profiler - INFO - Saving 39 memory samples to results/pytorch_small_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:12,138 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_train_gpu
+2025-05-11 12:50:12,138 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_train_gpu
+2025-05-11 12:50:12,138 - ml_profiler - INFO - [2/36] Running experiment: pytorch_small_b16_inference_gpu
+2025-05-11 12:50:12,138 - ml_profiler - INFO - Running experiment: pytorch_small_b16_inference_gpu
+2025-05-11 12:50:12,140 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b16_inference_gpu/metadata.json
+2025-05-11 12:50:12,148 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:12,148 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=inference, device=gpu
+2025-05-11 12:50:13,612 - ml_profiler.pytorch - INFO - Inference - Accuracy: 8.33%
+2025-05-11 12:50:13,612 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.11 seconds
+2025-05-11 12:50:13,612 - ml_profiler - INFO - Experiment completed in 1.46 seconds
+2025-05-11 12:50:13,709 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:13,713 - ml_profiler - INFO - Saving 14 memory samples to results/pytorch_small_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:13,713 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_inference_gpu
+2025-05-11 12:50:13,713 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_inference_gpu
+2025-05-11 12:50:13,713 - ml_profiler - INFO - [3/36] Running experiment: pytorch_small_b32_train_gpu
+2025-05-11 12:50:13,714 - ml_profiler - INFO - Running experiment: pytorch_small_b32_train_gpu
+2025-05-11 12:50:13,716 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b32_train_gpu/metadata.json
+2025-05-11 12:50:13,724 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:13,724 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=32, mode=train, device=gpu
+2025-05-11 12:50:15,099 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.3131
+2025-05-11 12:50:15,133 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.06 seconds
+2025-05-11 12:50:15,134 - ml_profiler - INFO - Experiment completed in 1.41 seconds
+2025-05-11 12:50:15,171 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:15,175 - ml_profiler - INFO - Saving 13 memory samples to results/pytorch_small_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:15,175 - ml_profiler - INFO - Experiment completed: pytorch_small_b32_train_gpu
+2025-05-11 12:50:15,175 - ml_profiler - INFO - Completed experiment: pytorch_small_b32_train_gpu
+2025-05-11 12:50:15,175 - ml_profiler - INFO - [4/36] Running experiment: pytorch_small_b32_inference_gpu
+2025-05-11 12:50:15,176 - ml_profiler - INFO - Running experiment: pytorch_small_b32_inference_gpu
+2025-05-11 12:50:15,178 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b32_inference_gpu/metadata.json
+2025-05-11 12:50:15,186 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:15,187 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=32, mode=inference, device=gpu
+2025-05-11 12:50:16,564 - ml_profiler.pytorch - INFO - Inference - Accuracy: 9.38%
+2025-05-11 12:50:16,564 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.03 seconds
+2025-05-11 12:50:16,565 - ml_profiler - INFO - Experiment completed in 1.38 seconds
+2025-05-11 12:50:16,565 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:16,569 - ml_profiler - INFO - Saving 12 memory samples to results/pytorch_small_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:16,569 - ml_profiler - INFO - Experiment completed: pytorch_small_b32_inference_gpu
+2025-05-11 12:50:16,569 - ml_profiler - INFO - Completed experiment: pytorch_small_b32_inference_gpu
+2025-05-11 12:50:16,569 - ml_profiler - INFO - [5/36] Running experiment: pytorch_small_b64_train_gpu
+2025-05-11 12:50:16,570 - ml_profiler - INFO - Running experiment: pytorch_small_b64_train_gpu
+2025-05-11 12:50:16,572 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b64_train_gpu/metadata.json
+2025-05-11 12:50:16,580 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:16,581 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=64, mode=train, device=gpu
+2025-05-11 12:50:17,958 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.2864
+2025-05-11 12:50:18,017 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.08 seconds
+2025-05-11 12:50:18,018 - ml_profiler - INFO - Experiment completed in 1.44 seconds
+2025-05-11 12:50:18,031 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:18,034 - ml_profiler - INFO - Saving 13 memory samples to results/pytorch_small_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:18,034 - ml_profiler - INFO - Experiment completed: pytorch_small_b64_train_gpu
+2025-05-11 12:50:18,034 - ml_profiler - INFO - Completed experiment: pytorch_small_b64_train_gpu
+2025-05-11 12:50:18,035 - ml_profiler - INFO - [6/36] Running experiment: pytorch_small_b64_inference_gpu
+2025-05-11 12:50:18,036 - ml_profiler - INFO - Running experiment: pytorch_small_b64_inference_gpu
+2025-05-11 12:50:18,037 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_small_b64_inference_gpu/metadata.json
+2025-05-11 12:50:18,046 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:18,046 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=64, mode=inference, device=gpu
+2025-05-11 12:50:19,462 - ml_profiler.pytorch - INFO - Inference - Accuracy: 9.11%
+2025-05-11 12:50:19,462 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.06 seconds
+2025-05-11 12:50:19,463 - ml_profiler - INFO - Experiment completed in 1.42 seconds
+2025-05-11 12:50:19,468 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:19,472 - ml_profiler - INFO - Saving 13 memory samples to results/pytorch_small_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:19,473 - ml_profiler - INFO - Experiment completed: pytorch_small_b64_inference_gpu
+2025-05-11 12:50:19,473 - ml_profiler - INFO - Completed experiment: pytorch_small_b64_inference_gpu
+2025-05-11 12:50:19,473 - ml_profiler - INFO - [7/36] Running experiment: pytorch_medium_b16_train_gpu
+2025-05-11 12:50:19,474 - ml_profiler - INFO - Running experiment: pytorch_medium_b16_train_gpu
+2025-05-11 12:50:19,476 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b16_train_gpu/metadata.json
+2025-05-11 12:50:19,484 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:19,484 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=16, mode=train, device=gpu
+2025-05-11 12:50:21,233 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.7152
+2025-05-11 12:50:21,277 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.31 seconds
+2025-05-11 12:50:21,278 - ml_profiler - INFO - Experiment completed in 1.79 seconds
+2025-05-11 12:50:21,279 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:21,282 - ml_profiler - INFO - Saving 16 memory samples to results/pytorch_medium_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:21,283 - ml_profiler - INFO - Experiment completed: pytorch_medium_b16_train_gpu
+2025-05-11 12:50:21,283 - ml_profiler - INFO - Completed experiment: pytorch_medium_b16_train_gpu
+2025-05-11 12:50:21,283 - ml_profiler - INFO - [8/36] Running experiment: pytorch_medium_b16_inference_gpu
+2025-05-11 12:50:21,284 - ml_profiler - INFO - Running experiment: pytorch_medium_b16_inference_gpu
+2025-05-11 12:50:21,286 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b16_inference_gpu/metadata.json
+2025-05-11 12:50:21,294 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:21,295 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=16, mode=inference, device=gpu
+2025-05-11 12:50:22,828 - ml_profiler.pytorch - INFO - Inference - Accuracy: 11.46%
+2025-05-11 12:50:22,828 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.04 seconds
+2025-05-11 12:50:22,829 - ml_profiler - INFO - Experiment completed in 1.53 seconds
+2025-05-11 12:50:22,873 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:22,877 - ml_profiler - INFO - Saving 14 memory samples to results/pytorch_medium_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:22,877 - ml_profiler - INFO - Experiment completed: pytorch_medium_b16_inference_gpu
+2025-05-11 12:50:22,877 - ml_profiler - INFO - Completed experiment: pytorch_medium_b16_inference_gpu
+2025-05-11 12:50:22,877 - ml_profiler - INFO - [9/36] Running experiment: pytorch_medium_b32_train_gpu
+2025-05-11 12:50:22,878 - ml_profiler - INFO - Running experiment: pytorch_medium_b32_train_gpu
+2025-05-11 12:50:22,880 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b32_train_gpu/metadata.json
+2025-05-11 12:50:22,888 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:22,888 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=32, mode=train, device=gpu
+2025-05-11 12:50:24,438 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.4595
+2025-05-11 12:50:24,504 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.12 seconds
+2025-05-11 12:50:24,506 - ml_profiler - INFO - Experiment completed in 1.62 seconds
+2025-05-11 12:50:24,559 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:24,562 - ml_profiler - INFO - Saving 15 memory samples to results/pytorch_medium_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:24,562 - ml_profiler - INFO - Experiment completed: pytorch_medium_b32_train_gpu
+2025-05-11 12:50:24,562 - ml_profiler - INFO - Completed experiment: pytorch_medium_b32_train_gpu
+2025-05-11 12:50:24,562 - ml_profiler - INFO - [10/36] Running experiment: pytorch_medium_b32_inference_gpu
+2025-05-11 12:50:24,563 - ml_profiler - INFO - Running experiment: pytorch_medium_b32_inference_gpu
+2025-05-11 12:50:24,565 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b32_inference_gpu/metadata.json
+2025-05-11 12:50:24,574 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:24,574 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=32, mode=inference, device=gpu
+2025-05-11 12:50:26,135 - ml_profiler.pytorch - INFO - Inference - Accuracy: 13.02%
+2025-05-11 12:50:26,135 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.06 seconds
+2025-05-11 12:50:26,137 - ml_profiler - INFO - Experiment completed in 1.56 seconds
+2025-05-11 12:50:26,227 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:26,265 - ml_profiler - INFO - Saving 15 memory samples to results/pytorch_medium_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:26,265 - ml_profiler - INFO - Experiment completed: pytorch_medium_b32_inference_gpu
+2025-05-11 12:50:26,265 - ml_profiler - INFO - Completed experiment: pytorch_medium_b32_inference_gpu
+2025-05-11 12:50:26,265 - ml_profiler - INFO - [11/36] Running experiment: pytorch_medium_b64_train_gpu
+2025-05-11 12:50:26,266 - ml_profiler - INFO - Running experiment: pytorch_medium_b64_train_gpu
+2025-05-11 12:50:26,268 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b64_train_gpu/metadata.json
+2025-05-11 12:50:26,277 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:26,277 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=64, mode=train, device=gpu
+2025-05-11 12:50:27,797 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.6056
+2025-05-11 12:50:27,889 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.12 seconds
+2025-05-11 12:50:27,890 - ml_profiler - INFO - Experiment completed in 1.61 seconds
+2025-05-11 12:50:27,968 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:27,972 - ml_profiler - INFO - Saving 15 memory samples to results/pytorch_medium_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:27,972 - ml_profiler - INFO - Experiment completed: pytorch_medium_b64_train_gpu
+2025-05-11 12:50:27,972 - ml_profiler - INFO - Completed experiment: pytorch_medium_b64_train_gpu
+2025-05-11 12:50:27,972 - ml_profiler - INFO - [12/36] Running experiment: pytorch_medium_b64_inference_gpu
+2025-05-11 12:50:27,973 - ml_profiler - INFO - Running experiment: pytorch_medium_b64_inference_gpu
+2025-05-11 12:50:27,975 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_medium_b64_inference_gpu/metadata.json
+2025-05-11 12:50:27,981 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:27,981 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: medium model, batch_size=64, mode=inference, device=gpu
+2025-05-11 12:50:29,544 - ml_profiler.pytorch - INFO - Inference - Accuracy: 6.77%
+2025-05-11 12:50:29,544 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.08 seconds
+2025-05-11 12:50:29,545 - ml_profiler - INFO - Experiment completed in 1.56 seconds
+2025-05-11 12:50:29,545 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:29,549 - ml_profiler - INFO - Saving 14 memory samples to results/pytorch_medium_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:29,549 - ml_profiler - INFO - Experiment completed: pytorch_medium_b64_inference_gpu
+2025-05-11 12:50:29,549 - ml_profiler - INFO - Completed experiment: pytorch_medium_b64_inference_gpu
+2025-05-11 12:50:29,549 - ml_profiler - INFO - [13/36] Running experiment: pytorch_large_b16_train_gpu
+2025-05-11 12:50:29,550 - ml_profiler - INFO - Running experiment: pytorch_large_b16_train_gpu
+2025-05-11 12:50:29,552 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b16_train_gpu/metadata.json
+2025-05-11 12:50:29,561 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:29,561 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=16, mode=train, device=gpu
+2025-05-11 12:50:30,226 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.3573
+2025-05-11 12:50:30,465 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.46 seconds
+2025-05-11 12:50:30,466 - ml_profiler - INFO - Experiment completed in 0.91 seconds
+2025-05-11 12:50:30,535 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:30,538 - ml_profiler - INFO - Saving 9 memory samples to results/pytorch_large_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:30,539 - ml_profiler - INFO - Experiment completed: pytorch_large_b16_train_gpu
+2025-05-11 12:50:30,539 - ml_profiler - INFO - Completed experiment: pytorch_large_b16_train_gpu
+2025-05-11 12:50:30,539 - ml_profiler - INFO - [14/36] Running experiment: pytorch_large_b16_inference_gpu
+2025-05-11 12:50:30,540 - ml_profiler - INFO - Running experiment: pytorch_large_b16_inference_gpu
+2025-05-11 12:50:30,542 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b16_inference_gpu/metadata.json
+2025-05-11 12:50:30,549 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:30,549 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=16, mode=inference, device=gpu
+2025-05-11 12:50:31,110 - ml_profiler.pytorch - INFO - Inference - Accuracy: 10.42%
+2025-05-11 12:50:31,110 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.10 seconds
+2025-05-11 12:50:31,110 - ml_profiler - INFO - Experiment completed in 0.56 seconds
+2025-05-11 12:50:31,195 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:31,198 - ml_profiler - INFO - Saving 6 memory samples to results/pytorch_large_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:31,198 - ml_profiler - INFO - Experiment completed: pytorch_large_b16_inference_gpu
+2025-05-11 12:50:31,198 - ml_profiler - INFO - Completed experiment: pytorch_large_b16_inference_gpu
+2025-05-11 12:50:31,198 - ml_profiler - INFO - [15/36] Running experiment: pytorch_large_b32_train_gpu
+2025-05-11 12:50:31,199 - ml_profiler - INFO - Running experiment: pytorch_large_b32_train_gpu
+2025-05-11 12:50:31,201 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b32_train_gpu/metadata.json
+2025-05-11 12:50:31,210 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:31,210 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=32, mode=train, device=gpu
+2025-05-11 12:50:31,802 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.3341
+2025-05-11 12:50:32,215 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.55 seconds
+2025-05-11 12:50:32,216 - ml_profiler - INFO - Experiment completed in 1.01 seconds
+2025-05-11 12:50:32,289 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:32,292 - ml_profiler - INFO - Saving 10 memory samples to results/pytorch_large_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:32,293 - ml_profiler - INFO - Experiment completed: pytorch_large_b32_train_gpu
+2025-05-11 12:50:32,293 - ml_profiler - INFO - Completed experiment: pytorch_large_b32_train_gpu
+2025-05-11 12:50:32,293 - ml_profiler - INFO - [16/36] Running experiment: pytorch_large_b32_inference_gpu
+2025-05-11 12:50:32,294 - ml_profiler - INFO - Running experiment: pytorch_large_b32_inference_gpu
+2025-05-11 12:50:32,296 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b32_inference_gpu/metadata.json
+2025-05-11 12:50:32,303 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:32,303 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=32, mode=inference, device=gpu
+2025-05-11 12:50:32,957 - ml_profiler.pytorch - INFO - Inference - Accuracy: 8.85%
+2025-05-11 12:50:32,957 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.19 seconds
+2025-05-11 12:50:32,958 - ml_profiler - INFO - Experiment completed in 0.65 seconds
+2025-05-11 12:50:33,058 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:33,061 - ml_profiler - INFO - Saving 7 memory samples to results/pytorch_large_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:33,061 - ml_profiler - INFO - Experiment completed: pytorch_large_b32_inference_gpu
+2025-05-11 12:50:33,061 - ml_profiler - INFO - Completed experiment: pytorch_large_b32_inference_gpu
+2025-05-11 12:50:33,061 - ml_profiler - INFO - [17/36] Running experiment: pytorch_large_b64_train_gpu
+2025-05-11 12:50:33,062 - ml_profiler - INFO - Running experiment: pytorch_large_b64_train_gpu
+2025-05-11 12:50:33,064 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b64_train_gpu/metadata.json
+2025-05-11 12:50:33,071 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:33,071 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=64, mode=train, device=gpu
+2025-05-11 12:50:33,728 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.5207
+2025-05-11 12:50:34,519 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.99 seconds
+2025-05-11 12:50:34,520 - ml_profiler - INFO - Experiment completed in 1.45 seconds
+2025-05-11 12:50:34,572 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:34,576 - ml_profiler - INFO - Saving 14 memory samples to results/pytorch_large_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:34,577 - ml_profiler - INFO - Experiment completed: pytorch_large_b64_train_gpu
+2025-05-11 12:50:34,577 - ml_profiler - INFO - Completed experiment: pytorch_large_b64_train_gpu
+2025-05-11 12:50:34,577 - ml_profiler - INFO - [18/36] Running experiment: pytorch_large_b64_inference_gpu
+2025-05-11 12:50:34,578 - ml_profiler - INFO - Running experiment: pytorch_large_b64_inference_gpu
+2025-05-11 12:50:34,580 - ml_profiler - INFO - Saved experiment metadata to results/pytorch_large_b64_inference_gpu/metadata.json
+2025-05-11 12:50:34,586 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:34,587 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: large model, batch_size=64, mode=inference, device=gpu
+2025-05-11 12:50:35,413 - ml_profiler.pytorch - INFO - Inference - Accuracy: 12.50%
+2025-05-11 12:50:35,413 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.36 seconds
+2025-05-11 12:50:35,413 - ml_profiler - INFO - Experiment completed in 0.83 seconds
+2025-05-11 12:50:35,447 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:35,451 - ml_profiler - INFO - Saving 8 memory samples to results/pytorch_large_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:35,451 - ml_profiler - INFO - Experiment completed: pytorch_large_b64_inference_gpu
+2025-05-11 12:50:35,451 - ml_profiler - INFO - Completed experiment: pytorch_large_b64_inference_gpu
+2025-05-11 12:50:35,451 - ml_profiler - INFO - [19/36] Running experiment: tensorflow_small_b16_train_gpu
+2025-05-11 12:50:35,452 - ml_profiler - INFO - Running experiment: tensorflow_small_b16_train_gpu
+2025-05-11 12:50:35,454 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b16_train_gpu/metadata.json
+2025-05-11 12:50:35,461 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:35,461 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:35,561 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:35,564 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:35,564 - ml_profiler - INFO - Experiment completed: tensorflow_small_b16_train_gpu
+2025-05-11 12:50:35,564 - ml_profiler - INFO - Completed experiment: tensorflow_small_b16_train_gpu
+2025-05-11 12:50:35,564 - ml_profiler - INFO - [20/36] Running experiment: tensorflow_small_b16_inference_gpu
+2025-05-11 12:50:35,565 - ml_profiler - INFO - Running experiment: tensorflow_small_b16_inference_gpu
+2025-05-11 12:50:35,567 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b16_inference_gpu/metadata.json
+2025-05-11 12:50:35,574 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:35,574 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:35,674 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:35,677 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:35,677 - ml_profiler - INFO - Experiment completed: tensorflow_small_b16_inference_gpu
+2025-05-11 12:50:35,677 - ml_profiler - INFO - Completed experiment: tensorflow_small_b16_inference_gpu
+2025-05-11 12:50:35,677 - ml_profiler - INFO - [21/36] Running experiment: tensorflow_small_b32_train_gpu
+2025-05-11 12:50:35,678 - ml_profiler - INFO - Running experiment: tensorflow_small_b32_train_gpu
+2025-05-11 12:50:35,680 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b32_train_gpu/metadata.json
+2025-05-11 12:50:35,686 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:35,686 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:35,787 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:35,790 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:35,790 - ml_profiler - INFO - Experiment completed: tensorflow_small_b32_train_gpu
+2025-05-11 12:50:35,790 - ml_profiler - INFO - Completed experiment: tensorflow_small_b32_train_gpu
+2025-05-11 12:50:35,790 - ml_profiler - INFO - [22/36] Running experiment: tensorflow_small_b32_inference_gpu
+2025-05-11 12:50:35,791 - ml_profiler - INFO - Running experiment: tensorflow_small_b32_inference_gpu
+2025-05-11 12:50:35,793 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b32_inference_gpu/metadata.json
+2025-05-11 12:50:35,799 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:35,799 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:35,899 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:35,902 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:35,903 - ml_profiler - INFO - Experiment completed: tensorflow_small_b32_inference_gpu
+2025-05-11 12:50:35,903 - ml_profiler - INFO - Completed experiment: tensorflow_small_b32_inference_gpu
+2025-05-11 12:50:35,903 - ml_profiler - INFO - [23/36] Running experiment: tensorflow_small_b64_train_gpu
+2025-05-11 12:50:35,904 - ml_profiler - INFO - Running experiment: tensorflow_small_b64_train_gpu
+2025-05-11 12:50:35,906 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b64_train_gpu/metadata.json
+2025-05-11 12:50:35,912 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:35,912 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,012 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,015 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:36,015 - ml_profiler - INFO - Experiment completed: tensorflow_small_b64_train_gpu
+2025-05-11 12:50:36,015 - ml_profiler - INFO - Completed experiment: tensorflow_small_b64_train_gpu
+2025-05-11 12:50:36,015 - ml_profiler - INFO - [24/36] Running experiment: tensorflow_small_b64_inference_gpu
+2025-05-11 12:50:36,016 - ml_profiler - INFO - Running experiment: tensorflow_small_b64_inference_gpu
+2025-05-11 12:50:36,018 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_small_b64_inference_gpu/metadata.json
+2025-05-11 12:50:36,024 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,024 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,124 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,127 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_small_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:36,127 - ml_profiler - INFO - Experiment completed: tensorflow_small_b64_inference_gpu
+2025-05-11 12:50:36,127 - ml_profiler - INFO - Completed experiment: tensorflow_small_b64_inference_gpu
+2025-05-11 12:50:36,127 - ml_profiler - INFO - [25/36] Running experiment: tensorflow_medium_b16_train_gpu
+2025-05-11 12:50:36,128 - ml_profiler - INFO - Running experiment: tensorflow_medium_b16_train_gpu
+2025-05-11 12:50:36,130 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b16_train_gpu/metadata.json
+2025-05-11 12:50:36,136 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,136 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,236 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,240 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:36,240 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b16_train_gpu
+2025-05-11 12:50:36,240 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b16_train_gpu
+2025-05-11 12:50:36,240 - ml_profiler - INFO - [26/36] Running experiment: tensorflow_medium_b16_inference_gpu
+2025-05-11 12:50:36,241 - ml_profiler - INFO - Running experiment: tensorflow_medium_b16_inference_gpu
+2025-05-11 12:50:36,243 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b16_inference_gpu/metadata.json
+2025-05-11 12:50:36,248 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,249 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,349 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,352 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:36,352 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b16_inference_gpu
+2025-05-11 12:50:36,352 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b16_inference_gpu
+2025-05-11 12:50:36,352 - ml_profiler - INFO - [27/36] Running experiment: tensorflow_medium_b32_train_gpu
+2025-05-11 12:50:36,353 - ml_profiler - INFO - Running experiment: tensorflow_medium_b32_train_gpu
+2025-05-11 12:50:36,355 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b32_train_gpu/metadata.json
+2025-05-11 12:50:36,361 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,361 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,461 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,464 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:36,464 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b32_train_gpu
+2025-05-11 12:50:36,464 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b32_train_gpu
+2025-05-11 12:50:36,464 - ml_profiler - INFO - [28/36] Running experiment: tensorflow_medium_b32_inference_gpu
+2025-05-11 12:50:36,465 - ml_profiler - INFO - Running experiment: tensorflow_medium_b32_inference_gpu
+2025-05-11 12:50:36,467 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b32_inference_gpu/metadata.json
+2025-05-11 12:50:36,473 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,473 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,573 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,576 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:36,576 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b32_inference_gpu
+2025-05-11 12:50:36,576 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b32_inference_gpu
+2025-05-11 12:50:36,576 - ml_profiler - INFO - [29/36] Running experiment: tensorflow_medium_b64_train_gpu
+2025-05-11 12:50:36,577 - ml_profiler - INFO - Running experiment: tensorflow_medium_b64_train_gpu
+2025-05-11 12:50:36,579 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b64_train_gpu/metadata.json
+2025-05-11 12:50:36,585 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,585 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,685 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,688 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:36,688 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b64_train_gpu
+2025-05-11 12:50:36,688 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b64_train_gpu
+2025-05-11 12:50:36,688 - ml_profiler - INFO - [30/36] Running experiment: tensorflow_medium_b64_inference_gpu
+2025-05-11 12:50:36,689 - ml_profiler - INFO - Running experiment: tensorflow_medium_b64_inference_gpu
+2025-05-11 12:50:36,691 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_medium_b64_inference_gpu/metadata.json
+2025-05-11 12:50:36,697 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,697 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,798 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,801 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_medium_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:36,801 - ml_profiler - INFO - Experiment completed: tensorflow_medium_b64_inference_gpu
+2025-05-11 12:50:36,801 - ml_profiler - INFO - Completed experiment: tensorflow_medium_b64_inference_gpu
+2025-05-11 12:50:36,801 - ml_profiler - INFO - [31/36] Running experiment: tensorflow_large_b16_train_gpu
+2025-05-11 12:50:36,802 - ml_profiler - INFO - Running experiment: tensorflow_large_b16_train_gpu
+2025-05-11 12:50:36,804 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b16_train_gpu/metadata.json
+2025-05-11 12:50:36,810 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,811 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:36,911 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:36,914 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b16_train_gpu/memory_data.csv
+2025-05-11 12:50:36,914 - ml_profiler - INFO - Experiment completed: tensorflow_large_b16_train_gpu
+2025-05-11 12:50:36,914 - ml_profiler - INFO - Completed experiment: tensorflow_large_b16_train_gpu
+2025-05-11 12:50:36,914 - ml_profiler - INFO - [32/36] Running experiment: tensorflow_large_b16_inference_gpu
+2025-05-11 12:50:36,915 - ml_profiler - INFO - Running experiment: tensorflow_large_b16_inference_gpu
+2025-05-11 12:50:36,917 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b16_inference_gpu/metadata.json
+2025-05-11 12:50:36,923 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:36,923 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:37,023 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:37,026 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b16_inference_gpu/memory_data.csv
+2025-05-11 12:50:37,026 - ml_profiler - INFO - Experiment completed: tensorflow_large_b16_inference_gpu
+2025-05-11 12:50:37,026 - ml_profiler - INFO - Completed experiment: tensorflow_large_b16_inference_gpu
+2025-05-11 12:50:37,026 - ml_profiler - INFO - [33/36] Running experiment: tensorflow_large_b32_train_gpu
+2025-05-11 12:50:37,027 - ml_profiler - INFO - Running experiment: tensorflow_large_b32_train_gpu
+2025-05-11 12:50:37,029 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b32_train_gpu/metadata.json
+2025-05-11 12:50:37,035 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:37,035 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:37,135 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:37,138 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b32_train_gpu/memory_data.csv
+2025-05-11 12:50:37,139 - ml_profiler - INFO - Experiment completed: tensorflow_large_b32_train_gpu
+2025-05-11 12:50:37,139 - ml_profiler - INFO - Completed experiment: tensorflow_large_b32_train_gpu
+2025-05-11 12:50:37,139 - ml_profiler - INFO - [34/36] Running experiment: tensorflow_large_b32_inference_gpu
+2025-05-11 12:50:37,150 - ml_profiler - INFO - Running experiment: tensorflow_large_b32_inference_gpu
+2025-05-11 12:50:37,152 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b32_inference_gpu/metadata.json
+2025-05-11 12:50:37,157 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:37,157 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:37,258 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:37,261 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b32_inference_gpu/memory_data.csv
+2025-05-11 12:50:37,261 - ml_profiler - INFO - Experiment completed: tensorflow_large_b32_inference_gpu
+2025-05-11 12:50:37,261 - ml_profiler - INFO - Completed experiment: tensorflow_large_b32_inference_gpu
+2025-05-11 12:50:37,261 - ml_profiler - INFO - [35/36] Running experiment: tensorflow_large_b64_train_gpu
+2025-05-11 12:50:37,262 - ml_profiler - INFO - Running experiment: tensorflow_large_b64_train_gpu
+2025-05-11 12:50:37,264 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b64_train_gpu/metadata.json
+2025-05-11 12:50:37,270 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:37,270 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:37,370 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:37,373 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b64_train_gpu/memory_data.csv
+2025-05-11 12:50:37,373 - ml_profiler - INFO - Experiment completed: tensorflow_large_b64_train_gpu
+2025-05-11 12:50:37,373 - ml_profiler - INFO - Completed experiment: tensorflow_large_b64_train_gpu
+2025-05-11 12:50:37,373 - ml_profiler - INFO - [36/36] Running experiment: tensorflow_large_b64_inference_gpu
+2025-05-11 12:50:37,374 - ml_profiler - INFO - Running experiment: tensorflow_large_b64_inference_gpu
+2025-05-11 12:50:37,376 - ml_profiler - INFO - Saved experiment metadata to results/tensorflow_large_b64_inference_gpu/metadata.json
+2025-05-11 12:50:37,382 - ml_profiler - INFO - Starting memory monitoring for PID 2407479
+2025-05-11 12:50:37,382 - ml_profiler - ERROR - TensorFlow experiments module not available
+2025-05-11 12:50:37,482 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 12:50:37,485 - ml_profiler - INFO - Saving 1 memory samples to results/tensorflow_large_b64_inference_gpu/memory_data.csv
+2025-05-11 12:50:37,485 - ml_profiler - INFO - Experiment completed: tensorflow_large_b64_inference_gpu
+2025-05-11 12:50:37,485 - ml_profiler - INFO - Completed experiment: tensorflow_large_b64_inference_gpu
+2025-05-11 12:50:37,485 - ml_profiler - INFO - Report generation not yet implemented

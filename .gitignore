@@ -1,0 +1,42 @@
+# Data files
+data/cifar-10-python.tar.gz
+*.csv
+*.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Model files - uncomment if you don't want to track them
+# *.joblib
+# *.pkl
+# *.h5
+# models/
+# model_checkpoints/
+
+# Logs and outputs - uncomment if you don't want to track them
+# *.log
+# *.png
+# profiling_results/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,55 @@
+2025-05-11 11:58:30,767 - ml_profiler - INFO - Initialized profiler with: frameworks=['pytorch', 'tensorflow'], model_sizes=['small', 'medium', 'large'], batch_sizes=[16, 32, 64], modes=['train', 'inference'], devices=['cpu', 'gpu']
+2025-05-11 11:58:30,767 - ml_profiler - INFO - System information: CPU: 12th Gen Intel(R) Core(TM) i9-12900H (20 cores), Memory: 15.71GB, GPU: Available - TensorFlow GPU
+2025-05-11 11:58:30,767 - ml_profiler - INFO - [1/72] Running experiment: pytorch_small_b16_train_cpu
+2025-05-11 11:58:30,768 - ml_profiler - INFO - Running experiment: pytorch_small_b16_train_cpu
+2025-05-11 11:58:30,769 - ml_profiler - INFO - Saved experiment metadata to results\pytorch_small_b16_train_cpu\metadata.json
+2025-05-11 11:58:30,782 - ml_profiler - INFO - Starting memory monitoring for PID 14184
+2025-05-11 11:58:30,782 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=train, device=cpu
+2025-05-11 11:58:32,786 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.3125
+2025-05-11 11:58:32,861 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.21 seconds
+2025-05-11 11:58:32,890 - ml_profiler - INFO - Experiment completed in 2.11 seconds
+2025-05-11 11:58:33,000 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 11:58:33,004 - ml_profiler - INFO - Saving 18 memory samples to results\pytorch_small_b16_train_cpu\memory_data.csv
+2025-05-11 11:58:33,005 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_train_cpu
+2025-05-11 11:58:33,005 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_train_cpu
+2025-05-11 11:58:33,005 - ml_profiler - INFO - [2/72] Running experiment: pytorch_small_b16_train_gpu
+2025-05-11 11:58:33,007 - ml_profiler - INFO - Running experiment: pytorch_small_b16_train_gpu
+2025-05-11 11:58:33,008 - ml_profiler - INFO - Saved experiment metadata to results\pytorch_small_b16_train_gpu\metadata.json
+2025-05-11 11:58:33,024 - ml_profiler - INFO - Starting memory monitoring for PID 14184
+2025-05-11 11:58:33,025 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=train, device=gpu
+2025-05-11 11:58:34,634 - ml_profiler.pytorch - INFO - Batch 0, Loss: 2.2880
+2025-05-11 11:58:34,745 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.14 seconds
+2025-05-11 11:58:34,757 - ml_profiler - INFO - Experiment completed in 1.73 seconds
+2025-05-11 11:58:34,765 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 11:58:34,770 - ml_profiler - INFO - Saving 14 memory samples to results\pytorch_small_b16_train_gpu\memory_data.csv
+2025-05-11 11:58:34,770 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_train_gpu
+2025-05-11 11:58:34,771 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_train_gpu
+2025-05-11 11:58:34,772 - ml_profiler - INFO - [3/72] Running experiment: pytorch_small_b16_inference_cpu
+2025-05-11 11:58:34,773 - ml_profiler - INFO - Running experiment: pytorch_small_b16_inference_cpu
+2025-05-11 11:58:34,775 - ml_profiler - INFO - Saved experiment metadata to results\pytorch_small_b16_inference_cpu\metadata.json
+2025-05-11 11:58:34,791 - ml_profiler - INFO - Starting memory monitoring for PID 14184
+2025-05-11 11:58:34,791 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=inference, device=cpu
+2025-05-11 11:58:36,356 - ml_profiler.pytorch - INFO - Inference - Accuracy: 9.38%
+2025-05-11 11:58:36,356 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.03 seconds
+2025-05-11 11:58:36,367 - ml_profiler - INFO - Experiment completed in 1.58 seconds
+2025-05-11 11:58:36,395 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 11:58:36,398 - ml_profiler - INFO - Saving 13 memory samples to results\pytorch_small_b16_inference_cpu\memory_data.csv
+2025-05-11 11:58:36,398 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_inference_cpu
+2025-05-11 11:58:36,398 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_inference_cpu
+2025-05-11 11:58:36,398 - ml_profiler - INFO - [4/72] Running experiment: pytorch_small_b16_inference_gpu
+2025-05-11 11:58:36,400 - ml_profiler - INFO - Running experiment: pytorch_small_b16_inference_gpu
+2025-05-11 11:58:36,402 - ml_profiler - INFO - Saved experiment metadata to results\pytorch_small_b16_inference_gpu\metadata.json
+2025-05-11 11:58:36,417 - ml_profiler - INFO - Starting memory monitoring for PID 14184
+2025-05-11 11:58:36,418 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=16, mode=inference, device=gpu
+2025-05-11 11:58:38,095 - ml_profiler.pytorch - INFO - Inference - Accuracy: 15.62%
+2025-05-11 11:58:38,096 - ml_profiler.pytorch - INFO - Completed PyTorch experiment in 0.04 seconds
+2025-05-11 11:58:38,110 - ml_profiler - INFO - Experiment completed in 1.69 seconds
+2025-05-11 11:58:38,141 - ml_profiler - INFO - Stopping memory monitoring
+2025-05-11 11:58:38,143 - ml_profiler - INFO - Saving 14 memory samples to results\pytorch_small_b16_inference_gpu\memory_data.csv
+2025-05-11 11:58:38,143 - ml_profiler - INFO - Experiment completed: pytorch_small_b16_inference_gpu
+2025-05-11 11:58:38,144 - ml_profiler - INFO - Completed experiment: pytorch_small_b16_inference_gpu
+2025-05-11 11:58:38,144 - ml_profiler - INFO - [5/72] Running experiment: pytorch_small_b32_train_cpu
+2025-05-11 11:58:38,144 - ml_profiler - INFO - Running experiment: pytorch_small_b32_train_cpu
+2025-05-11 11:58:38,146 - ml_profiler - INFO - Saved experiment metadata to results\pytorch_small_b32_train_cpu\metadata.json
+2025-05-11 11:58:38,162 - ml_profiler - INFO - Starting memory monitoring for PID 14184
+2025-05-11 11:58:38,163 - ml_profiler.pytorch - INFO - Starting PyTorch experiment: small model, batch_size=32, mode=train, device=cpu
